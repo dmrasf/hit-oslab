@@ -27,7 +27,7 @@ install_gcc34_amd64() {
 install_amd64() {
     echo -e "* Install dependencies for x86_64(amd64) arch now......"
     sudo pacman -S bin86
-    sudo pacman -S build-devel
+    sudo pacman -S base-devel
     sudo pacman -S bochs
     echo -e "* Install dependencies for x86_64(amd64) arch now......\033[34mDone\033[0m"
 }
