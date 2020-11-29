@@ -87,7 +87,7 @@ then
     install_amd64
     install_gcc34_amd64
     configure_for_amd64
-    echo -e "\033[34m* Installation finished. Ciao~\033[0m"
+    echo -e "\033[34m* Installation finished.\033[0m"
 else
     echo -e "\033[34m* Installation failed.\033[0m"
 fi
